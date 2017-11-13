@@ -1,1 +1,5 @@
 theme: jekyll-theme-midnight
+url: "https://ibiber.github.io"
+# baseurl: "/gh-pages.jeykll.docker.demo"
+repository: iBiber/ibiber.github.io
+baseurl: ""
