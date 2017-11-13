@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#navigation {
+  border-bottom: 1px solid #bbb;
+  position: fixed;
+  top: 0;
+  width: 650px
+}
+
+#navigation li.float_right {
+  float: right;
+}
+
+#navigation ul, #navigation h1, #navigation hr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    list-style-image: none;
+}
+
+section #title h1 {
+    line-height: 64px;
+}
+
+#navigation li {
+    float: left;
+}
+
+#navigation li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    background-color: #111;
+}
+
+#footer {
+  border-top: 1px solid #bbb;
+  margin-top: 50px;
+  bottom: 0;
+  width: 650px
+}
